@@ -13,7 +13,7 @@ async def on_ready():
 async def on_member_join(member):
 	if member.server.id=="439171643349139496":
 		
-		msg= 'welcome '+member.mention+' to **Modern Gaming League** \n\nFirst of all please read our **rules** in <#477145659250835476> \n\nLook at <#439172731611643904> for more info about Modern Gaming League and important news \n\nYou want to submit a project , want to sponsor us or ask questions about our organisation ?**Contact the <@446017384357167104>** \n\nFollow us! \nwww.twitter.com/GamModern \nEnjoy your time here!'
+		msg= 'Welcome '+member.mention+' to **Modern Gaming League** \n\nFirst of all please read our **rules** in <#477145659250835476> \n\nLook at <#439172731611643904> for more info about Modern Gaming League and important news \n\nYou want to submit a project, want to sponsor us or ask questions about our organisation?**Contact the <@446017384357167104>** \n\nFollow us! \nwww.twitter.com/GamModern \nEnjoy your time here!'
 		await client.send_message(client.get_channel("439171643349139498"), msg)
 	
 @client.command()
